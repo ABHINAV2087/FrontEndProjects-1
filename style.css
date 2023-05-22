@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(248, 247, 245);
+    display: flex;
+    overflow: hidden;
+}
+#pleft{
+    height: 100%;
+    width: 30%;
+    
+}
+
+#navl{
+    padding: 25px 50px;
+    margin-left: 80px;
+    text-align: center;
+}
+
+#content h1{
+    text-transform: uppercase;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    margin-top: 30PX;
+    margin-left: 25px;
+    letter-spacing: 5px;padding-left: 1px;
+    
+    width: 500px;
+    
+    font-size: 45px;
+}
+#bigbox{
+    height: 200px;
+    width: 330px;
+    background-color: #192948;
+    margin-left: 110PX;
+    margin-TOP: 30PX;
+    background-image: url(https://i.pinimg.com/564x/31/3d/53/313d5329e4eb45a3c48eced2cef607a9.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 2px 7px 8px 3px #888888;
+}
+#smallbox{
+    display: flex;
+    gap: 10px;
+    margin-left: 85px;
+    margin-top: 30px;
+}
+#smallbox1{
+    height: 80px;
+    width: 120px;
+    background-color: black;
+    background-image: url(https://i.pinimg.com/564x/3f/2d/fb/3f2dfbc8f39dbeffc203618b38dc3a79.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 2px 7px 8px 3px #888888;
+    opacity: 80%;
+}
+#smallbox2{
+    height: 80px;
+    width: 120px;
+    background-color: black;
+    background-image: url(https://i.pinimg.com/564x/d7/94/c6/d794c61dca4c1ba2aa0f89f05cfc2309.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 2px 7px 8px 3px #888888;
+}
+
+#smallbox3{
+    height: 80px;
+    width: 120px;
+    background-color: black;
+    background-image: url(https://i.pinimg.com/564x/55/fb/76/55fb769c020a54d1d302ed90d1b789de.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 2px 7px 8px 3px #888888;
+    opacity: 80%;
+}
+#pno{
+    display: flex;
+    margin-left: 140px;
+    margin-top: 40px;
+    gap: 13px;
+    color: black;
+}
+#pno a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 2s;
+    transition: ease-in-out;
+    padding-top: 5px;
+    font-weight: 700;
+}
+#pno a:nth-child(2){
+    scale: 1.5;
+}
+#pno a:nth-child(3){
+    opacity: 60%;
+}
+#pno a:nth-child(4){
+    opacity: 60%;
+}
+#pno a:nth-child(5){
+    opacity: 60%;
+}
+#pno a:nth-child(6){
+    opacity: 60%;
+}
+#pno a:hover{
+    border-bottom: 1px solid black;
+}
+#pno i{
+    font-size: 30px;
+    padding: 0px 20px;
+    
+}
+#pno i:nth-child(1){
+    opacity: 40%;
+}
+#social{
+    display: flex;
+    margin-top: 55px;
+    margin-left: 120px;
+    gap: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Patrick Hand', cursive;
+}
+#social a{
+    text-decoration: none;
+    color: black;
+}
+#social i{
+    margin-right: 8px;
+}
+
+#slanted1{
+    width: 70%;
+    height: 100%;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    
+    position: relative;
+    background-color: #192948;
+    
+}
+#slanted2 h1{
+    
+    color: azure;
+    letter-spacing: 10px;
+    font-family: 'Rubik Gemstones', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    
+}
+#slanttxt{
+    display: flex;
+    margin-left: px;
+    margin-top: 530px;
+    transform: rotate(-70deg);
+    gap: 40px;
+    opacity: 50%;
+}
+#navr{
+    margin-left: 310px;
+    margin-top: 45px;
+    
+}
+#navr a{
+    padding: 6px 20px;
+    color: beige;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Patrick Hand', cursive;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)3s;
+    transition: ease-in-out;
+}
+#navr a:hover{
+    border-bottom: 1px solid wheat;
+}
+#frontcar{
+    position: absolute;
+    left: 780px;
+    top: 260px;
+    
+    z-index: 999;
+}
+#circle1{
+        height: 110px;
+        width: 110px;
+        border-radius: 50%;
+        background-color: aquamarine;
+        margin-left: 280px;
+        margin-top: 180px;
+        background-image: url(https://i.pinimg.com/564x/d5/66/98/d566984a2f016d642f28c0bd4317ba12.jpg);
+        background-size: contain;
+        opacity: 70%;
+}
+
+#circle2{
+        height: 167px;
+        width: 167px;
+        border-radius: 50%;
+        background-color: aquamarine;
+        margin-left: 110px;
+        margin-top: 30px;
+        background-image: url(https://i.pinimg.com/736x/95/e3/7e/95e37e93e1dc5d25c42931314b53fca2.jpg);
+        background-size: cover;
+        opacity: 80%;
+
+}
+#circle3{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    margin-left: 270px;
+    margin-top: 55px;
+    background-image: url(https://i.pinimg.com/564x/77/5d/6d/775d6db3abe6c65e0434a62699ec9d1c.jpg);
+        background-size: contain;
+        opacity: 70%;
+
+}
+#slanted2{
+    width: 20%;
+    height: 100%;
+    clip-path: polygon(100% 0, 100% 32%, 40% 100%, 12% 100%);
+    margin-left: -200px;
+    background-color: #192948;
+}
+
