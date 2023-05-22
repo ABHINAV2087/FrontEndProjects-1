@@ -15,6 +15,6 @@ This repository contains a project that I created while learning HTML, CSS. The 
     - Git
     - GitHub
 
-# you can check here
+# URL
 
  🔗   https://abhinav2087.github.io/FrontEndProjects-1/
